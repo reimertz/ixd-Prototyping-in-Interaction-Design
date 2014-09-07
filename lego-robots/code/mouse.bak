@@ -1,0 +1,66 @@
+#define LOWERLIGHT 60
+
+
+string light1;
+string light2;
+int SV1;
+int SV2;
+
+
+sub controlMotor()
+{
+    SV1 = Sensor(IN_1);
+    SV2 = Sensor(IN_2);
+    if (SV1 > LOWERLIGHT)
+       {
+           OnFwd(OUT_A, 0);
+           OnFwd(OUT_B, 50);
+       }
+    else if (SV2 > LOWERLIGHT)
+       {
+           OnFwd(OUT_A, 50);
+           OnFwd(OUT_B, 0);
+       }
+    else
+        {
+           OnFwd(OUT_A, 50);
+           OnFwd(OUT_B, 50);
+        }
+
+}
+
+
+
+task main ()
+{
+// Configure port 1 for light sensor, without enabling the build-in leds, so it only sees ambient light
+     SetSensorColorNone(IN_1);
+     
+// Configure port 1 for light sensor, enabling the build-in leds, so it sees reflected (and ambient) light
+//     SetSensorColorAll(IN_1);
+
+// Configure port 1 to use maximum resolution in the ADC
+     SetSensorMode(IN_1, SENSOR_MODE_RAW);
+     ResetSensor(IN_1);
+     
+// Configure port 1 for light sensor, without enabling the build-in leds, so it only sees ambient light
+     SetSensorColorNone(IN_2);
+
+// Configure port 1 for light sensor, enabling the build-in leds, so it sees reflected (and ambient) light
+//     SetSensorColorAll(IN_2);
+
+// Configure port 1 to use maximum resolution in the ADC
+     SetSensorMode(IN_2, SENSOR_MODE_RAW);
+     ResetSensor(IN_2);
+
+     while(true)
+     {
+                light1=NumToStr(Sensor(IN_1));
+                //light2=NumToStr(Sensor(IN_2));
+                TextOut(0,0,light1, true);
+                //TextOut(0,0,light2, true);
+                
+// Access subfroutine with motor control...
+                controlMotor();
+     }
+}

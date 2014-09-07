@@ -1,0 +1,169 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001main	6	1	0	4	2
+1	__D0controlMotorTimid	6	1	4	4	5
+2	__signed_stack_002main	6	1	8	4	2
+3	__signed_stack_001controlMotorTimid	6	1	12	4	2
+4	__D0main	6	1	16	4	7
+5	__constVal128	4	0	20	2	1
+6	SV	4	1	22	2	2
+7	__SetSensorMode_7qG2_port_7qG2_000_inline_main	1	1	24	1	2
+8	__controlMotorTimid_return	1	1	25	1	3
+9	____initialize_global_data_return	1	1	26	1	3
+10	__SetSensorColorNone_7qG2_port_7qG2_000_inline_main	1	1	27	1	4
+11	__constVal17	2	0	28	1	1
+12	__constVal96	2	0	29	1	2
+13	__constVal63	2	0	30	1	2
+14	__constVal3	2	0	31	1	2
+15	__ResetSensorPort	1	1	32	1	4
+16	__constVal0	2	1	33	1	12
+17	__constVal32	2	0	34	1	6
+18	__constVal1	2	0	35	1	1
+19	__ResetSensorTmp	1	1	36	1	2
+20	__zfmain	1	1	37	1	2
+21	__SetSensorMode_7qG2_mode_7qG2_000_inline_main	1	1	38	1	2
+22	__zfcontrolMotorTimid	1	1	39	1	3
+23	____ResetSensorSubroutine_return	1	1	40	1	4
+24	__TextOutArgs	8	0	4	16	6
+25	__TextOutArgs.Result	2	1	44	1	6
+26	__TextOutArgs.Location	8	0	2	4	6
+27	__TextOutArgs.Location.X	4	1	48	2	6
+28	__TextOutArgs.Location.Y	4	1	50	2	6
+29	__TextOutArgs.Text	7	0	52	4	6
+30	__TextOutArgs.Text.Text_type	1	0	0	1	0
+31	__TextOutArgs.Options	5	1	56	4	6
+32	__strbufmain	7	0	60	4	4
+33	__strbufmain.__strbufmain_type	1	0	0	1	0
+34	__strretvalmain	7	0	62	4	2
+35	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+36	light	7	0	64	4	2
+37	light.light_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	37	0	#line 37 "C:\Users\Scott\Desktop\timid.nxc"
+0	38	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	37	2	#line 37 "C:\Users\Scott\Desktop\timid.nxc"
+0	37	2	#line 37 "C:\Users\Scott\Desktop\timid.nxc"
+0	38	2		set __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 0
+0	37	5	#line 37 "C:\Users\Scott\Desktop\timid.nxc"
+0	3842	5	#line 3842 "NXCDefs.h"
+0	3843	5	#pragma macro 6
+0	3843	5		setin __constVal17, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 0
+0	3843	9		setin __constVal128, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 1
+0	3843	13		mov __ResetSensorPort, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main
+0	3843	15		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6200	17	#line 6200 "NXCDefs.h"
+0	3842	17	#line 3842 "NXCDefs.h"
+0	43	17	#line 43 "C:\Users\Scott\Desktop\timid.nxc"
+0	43	17	#line 43 "C:\Users\Scott\Desktop\timid.nxc"
+0	44	17		set __SetSensorMode_7qG2_port_7qG2_000_inline_main, 0
+0	43	20	#line 43 "C:\Users\Scott\Desktop\timid.nxc"
+0	43	20	#line 43 "C:\Users\Scott\Desktop\timid.nxc"
+0	44	20		set __SetSensorMode_7qG2_mode_7qG2_000_inline_main, 0
+0	43	23	#line 43 "C:\Users\Scott\Desktop\timid.nxc"
+0	3676	23	#line 3676 "NXCDefs.h"
+0	3677	23		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_main, 1
+0	3676	27	#line 3676 "NXCDefs.h"
+0	44	27	#line 44 "C:\Users\Scott\Desktop\timid.nxc"
+0	44	27	#line 44 "C:\Users\Scott\Desktop\timid.nxc"
+0	44	27	#line 44 "C:\Users\Scott\Desktop\timid.nxc"
+0	3694	27	#line 3694 "NXCDefs.h"
+0	3695	27	#pragma macro 4
+0	3695	27		mov __ResetSensorPort, __constVal0
+0	3695	29		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6238	31	#line 6238 "NXCDefs.h"
+0	3694	31	#line 3694 "NXCDefs.h"
+0	46	31	#line 46 "C:\Users\Scott\Desktop\timid.nxc"
+0	47	31	#line 47 "C:\Users\Scott\Desktop\timid.nxc"
+0	48	31		set __D0main, 1
+0	48	34	#line 48 "C:\Users\Scott\Desktop\timid.nxc"
+0	49	34		tst 5, __zfmain, __D0main
+0	48	37	#line 48 "C:\Users\Scott\Desktop\timid.nxc"
+0	49	37		brtst 4, __NXC_Label_629, __zfmain
+0	48	40	#line 48 "C:\Users\Scott\Desktop\timid.nxc"
+0	49	40		getin __D0main, __constVal0, 4
+0	49	44	#line 49 "C:\Users\Scott\Desktop\timid.nxc"
+0	50	44		numtostr __strretvalmain, __D0main
+0	49	47	#line 49 "C:\Users\Scott\Desktop\timid.nxc"
+0	50	47		strcat __strbufmain, __strretvalmain
+0	49	51	#line 49 "C:\Users\Scott\Desktop\timid.nxc"
+0	50	51		mov light, __strbufmain
+0	49	53	#line 49 "C:\Users\Scott\Desktop\timid.nxc"
+0	49	53	#line 49 "C:\Users\Scott\Desktop\timid.nxc"
+0	49	53	#line 49 "C:\Users\Scott\Desktop\timid.nxc"
+0	50	53		set __signed_stack_001main, 0
+0	49	56	#line 49 "C:\Users\Scott\Desktop\timid.nxc"
+0	49	56	#line 49 "C:\Users\Scott\Desktop\timid.nxc"
+0	50	56		set __signed_stack_002main, 0
+0	49	59	#line 49 "C:\Users\Scott\Desktop\timid.nxc"
+0	49	59	#line 49 "C:\Users\Scott\Desktop\timid.nxc"
+0	50	59		strcat __strbufmain, light
+0	49	63	#line 49 "C:\Users\Scott\Desktop\timid.nxc"
+0	50	63		set __D0main, 1
+0	52	66	#line 52 "C:\Users\Scott\Desktop\timid.nxc"
+0	52	66	#line 52 "C:\Users\Scott\Desktop\timid.nxc"
+0	53	66		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	52	68	#line 52 "C:\Users\Scott\Desktop\timid.nxc"
+0	53	68		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	52	70	#line 52 "C:\Users\Scott\Desktop\timid.nxc"
+0	53	70		mov __TextOutArgs.Options, __D0main
+0	52	72	#line 52 "C:\Users\Scott\Desktop\timid.nxc"
+0	53	72		mov __TextOutArgs.Text, __strbufmain
+0	52	74	#line 52 "C:\Users\Scott\Desktop\timid.nxc"
+0	53	74		syscall 13, __TextOutArgs
+0	52	77	#line 52 "C:\Users\Scott\Desktop\timid.nxc"
+0	53	77		mov __D0main, __TextOutArgs.Result
+0	52	79	#line 52 "C:\Users\Scott\Desktop\timid.nxc"
+0	52	79	#line 52 "C:\Users\Scott\Desktop\timid.nxc"
+0	53	79	#line 53 "C:\Users\Scott\Desktop\timid.nxc"
+0	54	79		subcall controlMotorTimid, __controlMotorTimid_return
+0	53	81	#line 53 "C:\Users\Scott\Desktop\timid.nxc"
+0	56	81	#line 56 "C:\Users\Scott\Desktop\timid.nxc"
+0	57	81		jmp __NXC_Label_628
+0	56	83	#line 56 "C:\Users\Scott\Desktop\timid.nxc"
+0	57	83		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	22	0	#line 22 "C:\Users\Scott\Desktop\timid.nxc"
+2	23	0		getin SV, __constVal0, 4
+2	22	4	#line 22 "C:\Users\Scott\Desktop\timid.nxc"
+2	22	4	#line 22 "C:\Users\Scott\Desktop\timid.nxc"
+2	22	4	#line 22 "C:\Users\Scott\Desktop\timid.nxc"
+2	23	4	#line 23 "C:\Users\Scott\Desktop\timid.nxc"
+2	24	4		mov __signed_stack_001controlMotorTimid, SV
+2	23	6	#line 23 "C:\Users\Scott\Desktop\timid.nxc"
+2	24	6	#line 24 "C:\Users\Scott\Desktop\timid.nxc"
+2	25	6		set __D0controlMotorTimid, 800
+2	24	9	#line 24 "C:\Users\Scott\Desktop\timid.nxc"
+2	25	9		cmp 1, __zfcontrolMotorTimid, __signed_stack_001controlMotorTimid, __D0controlMotorTimid
+2	24	13	#line 24 "C:\Users\Scott\Desktop\timid.nxc"
+2	25	13		mov __D0controlMotorTimid, __zfcontrolMotorTimid
+2	25	15	#line 25 "C:\Users\Scott\Desktop\timid.nxc"
+2	26	15		brtst 4, __NXC_Label_616, __zfcontrolMotorTimid
+2	25	18	#line 25 "C:\Users\Scott\Desktop\timid.nxc"
+2	26	18		set __D0controlMotorTimid, 100
+2	26	21	#line 26 "C:\Users\Scott\Desktop\timid.nxc"
+2	27	21	#pragma macro 7
+2	27	21		setout __constVal0, 2, __D0controlMotorTimid, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	6170	44	#line 6170 "C:\Users\Scott\Desktop\timid.nxc"
+2	26	44	#line 26 "C:\Users\Scott\Desktop\timid.nxc"
+2	29	44	#line 29 "C:\Users\Scott\Desktop\timid.nxc"
+2	30	44		jmp __NXC_Label_619
+2	30	46	#line 30 "C:\Users\Scott\Desktop\timid.nxc"
+2	31	46	#pragma macro 7
+2	31	46		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	6176	69	#line 6176 "C:\Users\Scott\Desktop\timid.nxc"
+2	30	69	#line 30 "C:\Users\Scott\Desktop\timid.nxc"
+2	34	69	#line 34 "C:\Users\Scott\Desktop\timid.nxc"
+2	34	69	#line 34 "C:\Users\Scott\Desktop\timid.nxc"
+2	35	69		subret __controlMotorTimid_return
+3	57	0	#line 57 "C:\Users\Scott\Desktop\timid.nxc"
+3	58	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Scott\Desktop\timid.nxc
+1	__ResetSensorSubroutine	86	NXTDefs.h
+2	controlMotorTimid	99	C:\Users\Scott\Desktop\timid.nxc
+3	__initialize_global_data	170	C:\Users\Scott\Desktop\timid.nxc

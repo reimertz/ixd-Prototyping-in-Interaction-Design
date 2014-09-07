@@ -1,0 +1,18 @@
+#define LOWERLIGHT 800
+#define UPPERLIGHT 1100
+
+sub controlMotor()
+{
+    OnFwd(OUT_A, -200);
+    OnFwd(OUT_B, -200);
+}
+
+task main ()
+{
+
+     while(true)
+     {
+// Access subfroutine with motor control...
+                controlMotor();
+     }
+}

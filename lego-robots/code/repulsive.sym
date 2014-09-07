@@ -1,0 +1,54 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0controlMotor	6	1	0	4	4
+1	__D0main	6	1	4	4	2
+2	__constVal96	2	0	8	1	2
+3	__controlMotor_return	1	1	9	1	3
+4	____initialize_global_data_return	1	1	10	1	3
+5	__constVal63	2	0	11	1	2
+6	__zfmain	1	1	12	1	2
+7	__constVal3	2	0	13	1	2
+8	__constVal0	2	1	14	1	7
+9	__constVal32	2	0	15	1	6
+10	__constVal1	2	0	16	1	1
+#SOURCES
+Clump	Line	PC	Source
+0	12	0	#line 12 "C:\Users\Scott\Desktop\repulsive.nxc"
+0	13	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	12	2	#line 12 "C:\Users\Scott\Desktop\repulsive.nxc"
+0	13	2	#line 13 "C:\Users\Scott\Desktop\repulsive.nxc"
+0	14	2		set __D0main, 1
+0	15	5	#line 15 "C:\Users\Scott\Desktop\repulsive.nxc"
+0	16	5		tst 5, __zfmain, __D0main
+0	15	8	#line 15 "C:\Users\Scott\Desktop\repulsive.nxc"
+0	16	8		brtst 4, __NXC_Label_609, __zfmain
+0	16	11	#line 16 "C:\Users\Scott\Desktop\repulsive.nxc"
+0	17	11		subcall controlMotor, __controlMotor_return
+0	16	13	#line 16 "C:\Users\Scott\Desktop\repulsive.nxc"
+0	19	13	#line 19 "C:\Users\Scott\Desktop\repulsive.nxc"
+0	20	13		jmp __NXC_Label_608
+0	19	15	#line 19 "C:\Users\Scott\Desktop\repulsive.nxc"
+0	20	15		exit -1, -1
+1	5	0	#line 5 "C:\Users\Scott\Desktop\repulsive.nxc"
+1	6	0		set __D0controlMotor, -200
+1	6	3	#line 6 "C:\Users\Scott\Desktop\repulsive.nxc"
+1	7	3	#pragma macro 7
+1	7	3		setout __constVal0, 2, __D0controlMotor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+1	5786	26	#line 5786 "C:\Users\Scott\Desktop\repulsive.nxc"
+1	6	26	#line 6 "C:\Users\Scott\Desktop\repulsive.nxc"
+1	6	26	#line 6 "C:\Users\Scott\Desktop\repulsive.nxc"
+1	7	26		set __D0controlMotor, -200
+1	7	29	#line 7 "C:\Users\Scott\Desktop\repulsive.nxc"
+1	8	29	#pragma macro 7
+1	8	29		setout __constVal1, 2, __D0controlMotor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+1	5793	52	#line 5793 "C:\Users\Scott\Desktop\repulsive.nxc"
+1	7	52	#line 7 "C:\Users\Scott\Desktop\repulsive.nxc"
+1	9	52	#line 9 "C:\Users\Scott\Desktop\repulsive.nxc"
+1	10	52		subret __controlMotor_return
+2	20	0	#line 20 "C:\Users\Scott\Desktop\repulsive.nxc"
+2	21	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Scott\Desktop\repulsive.nxc
+1	controlMotor	18	C:\Users\Scott\Desktop\repulsive.nxc
+2	__initialize_global_data	72	C:\Users\Scott\Desktop\repulsive.nxc

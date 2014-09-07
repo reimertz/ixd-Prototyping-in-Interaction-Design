@@ -1,0 +1,44 @@
+#define LOWERLIGHT 800
+#define UPPERLIGHT 1100
+
+string light;
+int SV;
+
+
+sub controlMotor()
+{
+    SV = Sensor(IN_1);
+    if (SV > LOWERLIGHT)
+       {
+           OnFwd(OUT_A, 50);
+       }
+    else
+        {
+           OnFwd(OUT_A, -50);
+        }
+
+}
+
+
+
+task main ()
+{
+// Configure port 1 for light sensor, without enabling the build-in leds, so it only sees ambient light
+     SetSensorColorNone(IN_1);
+     
+// Configure port 1 for light sensor, enabling the build-in leds, so it sees reflected (and ambient) light
+//     SetSensorColorAll(IN_1);
+
+// Configure port 1 to use maximum resolution in the ADC
+     SetSensorMode(IN_1, SENSOR_MODE_RAW);
+     ResetSensor(IN_1);
+
+     while(true)
+     {
+                light=NumToStr(Sensor(IN_1));
+                TextOut(0,0,light, true);
+
+// Access subfroutine with motor control...
+                controlMotor();
+     }
+}

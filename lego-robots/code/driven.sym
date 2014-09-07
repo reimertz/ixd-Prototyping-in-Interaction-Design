@@ -1,0 +1,253 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0main	6	1	0	4	7
+1	__D0controlMotor	6	1	4	4	18
+2	__signed_stack_002main	6	1	8	4	2
+3	__signed_stack_001controlMotor	6	1	12	4	4
+4	__signed_stack_001main	6	1	16	4	2
+5	SV1	4	1	20	2	3
+6	__constVal128	4	0	22	2	2
+7	SV2	4	1	24	2	3
+8	____initialize_global_data_return	1	1	26	1	3
+9	__SetSensorColorNone_7qG2_port_7qG2_000_inline_main	1	1	27	1	8
+10	__constVal17	2	0	28	1	2
+11	__constVal63	2	0	29	1	6
+12	__controlMotor_return	1	1	30	1	3
+13	__constVal96	2	0	31	1	6
+14	__SetSensorMode_7qG2_port_7qG2_000_inline_main	1	1	32	1	4
+15	__constVal3	2	0	33	1	6
+16	__ResetSensorPort	1	1	34	1	6
+17	__ResetSensorTmp	1	1	35	1	2
+18	__constVal32	2	0	36	1	18
+19	__constVal1	2	0	37	1	6
+20	__constVal0	2	1	38	1	24
+21	__zfmain	1	1	39	1	2
+22	__ResetSensor_7qG2_port_7qG2_000_inline_main	1	1	40	1	2
+23	__SetSensorMode_7qG2_mode_7qG2_000_inline_main	1	1	41	1	4
+24	____ResetSensorSubroutine_return	1	1	42	1	6
+25	__zfcontrolMotor	1	1	43	1	6
+26	__TextOutArgs	8	0	4	16	6
+27	__TextOutArgs.Result	2	1	44	1	6
+28	__TextOutArgs.Location	8	0	2	4	6
+29	__TextOutArgs.Location.X	4	1	48	2	6
+30	__TextOutArgs.Location.Y	4	1	50	2	6
+31	__TextOutArgs.Text	7	0	52	4	6
+32	__TextOutArgs.Text.Text_type	1	0	0	1	0
+33	__TextOutArgs.Options	5	1	56	4	6
+34	__strbufmain	7	0	60	4	4
+35	__strbufmain.__strbufmain_type	1	0	0	1	0
+36	__strretvalmain	7	0	62	4	2
+37	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+38	light	7	0	64	4	2
+39	light.light_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	34	0	#line 34 "C:\Users\Scott\Desktop\driven.nxc"
+0	35	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	34	2	#line 34 "C:\Users\Scott\Desktop\driven.nxc"
+0	34	2	#line 34 "C:\Users\Scott\Desktop\driven.nxc"
+0	35	2		set __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 0
+0	34	5	#line 34 "C:\Users\Scott\Desktop\driven.nxc"
+0	3842	5	#line 3842 "NXCDefs.h"
+0	3843	5	#pragma macro 6
+0	3843	5		setin __constVal17, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 0
+0	3843	9		setin __constVal128, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 1
+0	3843	13		mov __ResetSensorPort, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main
+0	3843	15		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6143	17	#line 6143 "NXCDefs.h"
+0	3842	17	#line 3842 "NXCDefs.h"
+0	40	17	#line 40 "C:\Users\Scott\Desktop\driven.nxc"
+0	40	17	#line 40 "C:\Users\Scott\Desktop\driven.nxc"
+0	41	17		set __SetSensorMode_7qG2_port_7qG2_000_inline_main, 0
+0	40	20	#line 40 "C:\Users\Scott\Desktop\driven.nxc"
+0	40	20	#line 40 "C:\Users\Scott\Desktop\driven.nxc"
+0	41	20		set __SetSensorMode_7qG2_mode_7qG2_000_inline_main, 0
+0	40	23	#line 40 "C:\Users\Scott\Desktop\driven.nxc"
+0	3676	23	#line 3676 "NXCDefs.h"
+0	3677	23		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_main, 1
+0	3676	27	#line 3676 "NXCDefs.h"
+0	41	27	#line 41 "C:\Users\Scott\Desktop\driven.nxc"
+0	41	27	#line 41 "C:\Users\Scott\Desktop\driven.nxc"
+0	42	27		set __ResetSensor_7qG2_port_7qG2_000_inline_main, 0
+0	41	30	#line 41 "C:\Users\Scott\Desktop\driven.nxc"
+0	3694	30	#line 3694 "NXCDefs.h"
+0	3695	30	#pragma macro 4
+0	3695	30		mov __ResetSensorPort, __constVal0
+0	3695	32		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6181	34	#line 6181 "NXCDefs.h"
+0	3694	34	#line 3694 "NXCDefs.h"
+0	44	34	#line 44 "C:\Users\Scott\Desktop\driven.nxc"
+0	44	34	#line 44 "C:\Users\Scott\Desktop\driven.nxc"
+0	45	34		set __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 1
+0	44	37	#line 44 "C:\Users\Scott\Desktop\driven.nxc"
+0	3842	37	#line 3842 "NXCDefs.h"
+0	3843	37	#pragma macro 6
+0	3843	37		setin __constVal17, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 0
+0	3843	41		setin __constVal128, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 1
+0	3843	45		mov __ResetSensorPort, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main
+0	3843	47		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6191	49	#line 6191 "NXCDefs.h"
+0	3842	49	#line 3842 "NXCDefs.h"
+0	50	49	#line 50 "C:\Users\Scott\Desktop\driven.nxc"
+0	50	49	#line 50 "C:\Users\Scott\Desktop\driven.nxc"
+0	51	49		set __SetSensorMode_7qG2_port_7qG2_000_inline_main, 1
+0	50	52	#line 50 "C:\Users\Scott\Desktop\driven.nxc"
+0	50	52	#line 50 "C:\Users\Scott\Desktop\driven.nxc"
+0	51	52		set __SetSensorMode_7qG2_mode_7qG2_000_inline_main, 0
+0	50	55	#line 50 "C:\Users\Scott\Desktop\driven.nxc"
+0	3676	55	#line 3676 "NXCDefs.h"
+0	3677	55		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_main, 1
+0	3676	59	#line 3676 "NXCDefs.h"
+0	51	59	#line 51 "C:\Users\Scott\Desktop\driven.nxc"
+0	51	59	#line 51 "C:\Users\Scott\Desktop\driven.nxc"
+0	52	59		set __ResetSensor_7qG2_port_7qG2_000_inline_main, 1
+0	51	62	#line 51 "C:\Users\Scott\Desktop\driven.nxc"
+0	3694	62	#line 3694 "NXCDefs.h"
+0	3695	62	#pragma macro 4
+0	3695	62		mov __ResetSensorPort, __constVal1
+0	3695	64		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6217	66	#line 6217 "NXCDefs.h"
+0	3694	66	#line 3694 "NXCDefs.h"
+0	54	66	#line 54 "C:\Users\Scott\Desktop\driven.nxc"
+0	55	66	#line 55 "C:\Users\Scott\Desktop\driven.nxc"
+0	56	66		set __D0main, 1
+0	56	69	#line 56 "C:\Users\Scott\Desktop\driven.nxc"
+0	57	69		tst 5, __zfmain, __D0main
+0	56	72	#line 56 "C:\Users\Scott\Desktop\driven.nxc"
+0	57	72		brtst 4, __NXC_Label_645, __zfmain
+0	56	75	#line 56 "C:\Users\Scott\Desktop\driven.nxc"
+0	57	75		getin __D0main, __constVal0, 4
+0	57	79	#line 57 "C:\Users\Scott\Desktop\driven.nxc"
+0	58	79		numtostr __strretvalmain, __D0main
+0	57	82	#line 57 "C:\Users\Scott\Desktop\driven.nxc"
+0	58	82		strcat __strbufmain, __strretvalmain
+0	57	86	#line 57 "C:\Users\Scott\Desktop\driven.nxc"
+0	58	86		mov light, __strbufmain
+0	57	88	#line 57 "C:\Users\Scott\Desktop\driven.nxc"
+0	57	88	#line 57 "C:\Users\Scott\Desktop\driven.nxc"
+0	57	88	#line 57 "C:\Users\Scott\Desktop\driven.nxc"
+0	58	88		set __signed_stack_001main, 0
+0	57	91	#line 57 "C:\Users\Scott\Desktop\driven.nxc"
+0	57	91	#line 57 "C:\Users\Scott\Desktop\driven.nxc"
+0	58	91		set __signed_stack_002main, 0
+0	57	94	#line 57 "C:\Users\Scott\Desktop\driven.nxc"
+0	57	94	#line 57 "C:\Users\Scott\Desktop\driven.nxc"
+0	58	94		strcat __strbufmain, light
+0	57	98	#line 57 "C:\Users\Scott\Desktop\driven.nxc"
+0	58	98		set __D0main, 1
+0	60	101	#line 60 "C:\Users\Scott\Desktop\driven.nxc"
+0	60	101	#line 60 "C:\Users\Scott\Desktop\driven.nxc"
+0	61	101		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	60	103	#line 60 "C:\Users\Scott\Desktop\driven.nxc"
+0	61	103		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	60	105	#line 60 "C:\Users\Scott\Desktop\driven.nxc"
+0	61	105		mov __TextOutArgs.Options, __D0main
+0	60	107	#line 60 "C:\Users\Scott\Desktop\driven.nxc"
+0	61	107		mov __TextOutArgs.Text, __strbufmain
+0	60	109	#line 60 "C:\Users\Scott\Desktop\driven.nxc"
+0	61	109		syscall 13, __TextOutArgs
+0	60	112	#line 60 "C:\Users\Scott\Desktop\driven.nxc"
+0	61	112		mov __D0main, __TextOutArgs.Result
+0	60	114	#line 60 "C:\Users\Scott\Desktop\driven.nxc"
+0	60	114	#line 60 "C:\Users\Scott\Desktop\driven.nxc"
+0	61	114	#line 61 "C:\Users\Scott\Desktop\driven.nxc"
+0	62	114		subcall controlMotor, __controlMotor_return
+0	61	116	#line 61 "C:\Users\Scott\Desktop\driven.nxc"
+0	64	116	#line 64 "C:\Users\Scott\Desktop\driven.nxc"
+0	65	116		jmp __NXC_Label_644
+0	64	118	#line 64 "C:\Users\Scott\Desktop\driven.nxc"
+0	65	118		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	10	0	#line 10 "C:\Users\Scott\Desktop\driven.nxc"
+2	11	0		getin SV1, __constVal0, 4
+2	10	4	#line 10 "C:\Users\Scott\Desktop\driven.nxc"
+2	10	4	#line 10 "C:\Users\Scott\Desktop\driven.nxc"
+2	10	4	#line 10 "C:\Users\Scott\Desktop\driven.nxc"
+2	11	4	#line 11 "C:\Users\Scott\Desktop\driven.nxc"
+2	12	4		getin SV2, __constVal1, 4
+2	11	8	#line 11 "C:\Users\Scott\Desktop\driven.nxc"
+2	11	8	#line 11 "C:\Users\Scott\Desktop\driven.nxc"
+2	11	8	#line 11 "C:\Users\Scott\Desktop\driven.nxc"
+2	12	8	#line 12 "C:\Users\Scott\Desktop\driven.nxc"
+2	13	8		mov __signed_stack_001controlMotor, SV1
+2	12	10	#line 12 "C:\Users\Scott\Desktop\driven.nxc"
+2	13	10	#line 13 "C:\Users\Scott\Desktop\driven.nxc"
+2	14	10		mov __D0controlMotor, SV2
+2	13	12	#line 13 "C:\Users\Scott\Desktop\driven.nxc"
+2	14	12		cmp 1, __zfcontrolMotor, __signed_stack_001controlMotor, __D0controlMotor
+2	13	16	#line 13 "C:\Users\Scott\Desktop\driven.nxc"
+2	14	16		mov __D0controlMotor, __zfcontrolMotor
+2	14	18	#line 14 "C:\Users\Scott\Desktop\driven.nxc"
+2	15	18		brtst 4, __NXC_Label_610, __zfcontrolMotor
+2	14	21	#line 14 "C:\Users\Scott\Desktop\driven.nxc"
+2	15	21		set __D0controlMotor, 50
+2	15	24	#line 15 "C:\Users\Scott\Desktop\driven.nxc"
+2	16	24	#pragma macro 7
+2	16	24		setout __constVal0, 2, __D0controlMotor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	6062	47	#line 6062 "C:\Users\Scott\Desktop\driven.nxc"
+2	15	47	#line 15 "C:\Users\Scott\Desktop\driven.nxc"
+2	15	47	#line 15 "C:\Users\Scott\Desktop\driven.nxc"
+2	16	47		set __D0controlMotor, 20
+2	16	50	#line 16 "C:\Users\Scott\Desktop\driven.nxc"
+2	17	50	#pragma macro 7
+2	17	50		setout __constVal1, 2, __D0controlMotor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	6069	73	#line 6069 "C:\Users\Scott\Desktop\driven.nxc"
+2	16	73	#line 16 "C:\Users\Scott\Desktop\driven.nxc"
+2	17	73	#line 17 "C:\Users\Scott\Desktop\driven.nxc"
+2	18	73		jmp __NXC_Label_615
+2	17	75	#line 17 "C:\Users\Scott\Desktop\driven.nxc"
+2	18	75		mov __signed_stack_001controlMotor, SV1
+2	17	77	#line 17 "C:\Users\Scott\Desktop\driven.nxc"
+2	18	77	#line 18 "C:\Users\Scott\Desktop\driven.nxc"
+2	19	77		mov __D0controlMotor, SV2
+2	18	79	#line 18 "C:\Users\Scott\Desktop\driven.nxc"
+2	19	79		cmp 2, __zfcontrolMotor, __signed_stack_001controlMotor, __D0controlMotor
+2	18	83	#line 18 "C:\Users\Scott\Desktop\driven.nxc"
+2	19	83		mov __D0controlMotor, __zfcontrolMotor
+2	19	85	#line 19 "C:\Users\Scott\Desktop\driven.nxc"
+2	20	85		brtst 4, __NXC_Label_618, __zfcontrolMotor
+2	19	88	#line 19 "C:\Users\Scott\Desktop\driven.nxc"
+2	20	88		set __D0controlMotor, 20
+2	20	91	#line 20 "C:\Users\Scott\Desktop\driven.nxc"
+2	21	91	#pragma macro 7
+2	21	91		setout __constVal0, 2, __D0controlMotor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	6093	114	#line 6093 "C:\Users\Scott\Desktop\driven.nxc"
+2	20	114	#line 20 "C:\Users\Scott\Desktop\driven.nxc"
+2	20	114	#line 20 "C:\Users\Scott\Desktop\driven.nxc"
+2	21	114		set __D0controlMotor, 50
+2	21	117	#line 21 "C:\Users\Scott\Desktop\driven.nxc"
+2	22	117	#pragma macro 7
+2	22	117		setout __constVal1, 2, __D0controlMotor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	6100	140	#line 6100 "C:\Users\Scott\Desktop\driven.nxc"
+2	21	140	#line 21 "C:\Users\Scott\Desktop\driven.nxc"
+2	24	140	#line 24 "C:\Users\Scott\Desktop\driven.nxc"
+2	25	140		jmp __NXC_Label_623
+2	24	142	#line 24 "C:\Users\Scott\Desktop\driven.nxc"
+2	25	142		set __D0controlMotor, 50
+2	25	145	#line 25 "C:\Users\Scott\Desktop\driven.nxc"
+2	26	145	#pragma macro 7
+2	26	145		setout __constVal0, 2, __D0controlMotor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	6110	168	#line 6110 "C:\Users\Scott\Desktop\driven.nxc"
+2	25	168	#line 25 "C:\Users\Scott\Desktop\driven.nxc"
+2	25	168	#line 25 "C:\Users\Scott\Desktop\driven.nxc"
+2	26	168		set __D0controlMotor, 50
+2	26	171	#line 26 "C:\Users\Scott\Desktop\driven.nxc"
+2	27	171	#pragma macro 7
+2	27	171		setout __constVal1, 2, __D0controlMotor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	6117	194	#line 6117 "C:\Users\Scott\Desktop\driven.nxc"
+2	26	194	#line 26 "C:\Users\Scott\Desktop\driven.nxc"
+2	31	194	#line 31 "C:\Users\Scott\Desktop\driven.nxc"
+2	31	194	#line 31 "C:\Users\Scott\Desktop\driven.nxc"
+2	31	194	#line 31 "C:\Users\Scott\Desktop\driven.nxc"
+2	32	194		subret __controlMotor_return
+3	65	0	#line 65 "C:\Users\Scott\Desktop\driven.nxc"
+3	66	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Scott\Desktop\driven.nxc
+1	__ResetSensorSubroutine	121	NXTDefs.h
+2	controlMotor	134	C:\Users\Scott\Desktop\driven.nxc
+3	__initialize_global_data	330	C:\Users\Scott\Desktop\driven.nxc
