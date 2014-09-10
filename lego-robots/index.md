@@ -38,8 +38,3 @@ On the workshop, a trivial problem, like building the robot(with the step-by-ste
 
 [See Source code](/lego-robots/code/)
 
-
-
-
-Pierre Reimertz
-
