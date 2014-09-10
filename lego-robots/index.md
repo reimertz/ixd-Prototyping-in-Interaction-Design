@@ -14,15 +14,13 @@ creativity and imagination to build whatever you wanted. With that in mind, and 
 
 After an hour or building, and maybe 15 minutes of panic, we realized that this was not like lego at all. Parts had to be carefully connected to maintain a reasonable structure that could handle the stress from the motors. So we had to rebuild it from scratch, and follow the step-by-step guide from the manual to get it right. Lesson learned is that if you are doing something for the first time, analyze the complexity, and don’t trust assumptions based on unrelated situations.
 
-
-
 ## How 30 lines of code could create love
 ![](/lego-robots/images/robot.jpg)
 
 
 I'm amazed how easy it is to project feelings onto a big mess of cables and lego bricks. It was most obvious when we created the attractive/repulsive robots. With 30 lines of code, we created a complex love affair between two robots. It makes sense since It’s easier to relate to something if you can assume that it is like you, with a soul and body.  In 100 years, who know how complex computers will be? I don’t think it’s unreasonable that we will walk next to robots, that we once created, that will have a soul just like we have, because of the nature of programming and the evolutional velocity of computational complexity.
 
-[Video (attractive/repulsive)](https://drive.google.com/file/d/0B9xPcVM2dIyuOHRTT1Q2VFV1THM/edit?usp=sharing) | [Video (line follower) ](/lego-robots/videos/line.mp4)
+[Video (line follower) ](/lego-robots/videos/line.mp4)
 
 ## Trivial problems could become complex in groups
 It is always interesting to work in groups, since this can give you 
