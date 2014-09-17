@@ -38,7 +38,7 @@ to design different screens. It was very effective.
 
 ### Wrist band foam prototype
 
-![](/prototyping-different-forms/images/robot.jpg)
+![](/prototyping-different-forms/images/the_band.jpg)
 
 In order to get a fell of the actual wrist band, we used styrofoam that we cut using a hot wire,
 and then used smooth sand paper to give it a smooth and symmetric form. It was very interesting
