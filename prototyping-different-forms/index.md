@@ -46,6 +46,8 @@ to be able to wear the product and at the same time being able to interact with 
 
 ## Role playing
 
+![](/prototyping-different-forms/images/role_playing.jpg)
+
 But we felt that there was a lot of possibilities that we might have missed so we started
 to role-play with lego, and oh boy, that was fun! After this realization, we build a combination 
 between a cardboard model and lego model. It had 4 different areas that represented
@@ -59,8 +61,6 @@ different use-cases for our anti-stress band. A office,
 I love doing hardware hacks, and without reading the restrictions, I started
 to build a quick rgb-led-arduino-node.js so that we could easily demonstrate
 the different states of the wrist band. It was very effective.
-
-
 
 [Source code](https://github.com/reimertz/ixd_anti-stress-band)
 
