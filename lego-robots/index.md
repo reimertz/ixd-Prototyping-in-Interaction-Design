@@ -1,4 +1,4 @@
-Assigment 1 - Lego Robots
+Assignment 1 - Lego Robots
 =========================
 
 ## Analyze time constraints and complexity of the problem
