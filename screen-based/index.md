@@ -80,7 +80,7 @@ to be visible at all times, they should put it there.
 This was very interesting since this gathered a lot of interesting information such as
 the need of a fourth category. 
 
-![](/screen-based/images/test2.JPG)
+![](/screen-based/images/test2.JPG) 
 
 #### Test 2: Blind-piloting
 After the first test, we let them sit infront of a screen and the only thing we told
