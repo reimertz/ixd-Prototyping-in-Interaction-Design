@@ -8,7 +8,9 @@ the course CIU176.
 
 [Assignment 2 - Prototyping different forms](/prototyping-different-forms/index.md)
 
-[Assignment 3 - Design Processes (in progress)](/design-processes/index.md)
+[Assignment 3 - Screen-based prototyping](/screen-based/index.md)
+
+[Assignment 4 - Design Processes (in progress)](/design-processes/index.md)
 
 Assignment 4 - XX
 
