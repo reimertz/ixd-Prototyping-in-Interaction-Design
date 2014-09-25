@@ -15,3 +15,5 @@ the course CIU176.
 Assignment 4 - XX
 
 Assignment 5 - XX
+
+[3D modeling](/3d-modeling/index.md)
