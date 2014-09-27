@@ -10,7 +10,7 @@ the course CIU176.
 
 [Assignment 3 - Screen-based prototyping](/screen-based/index.md)
 
-[Assignment 4 - Design Processes (in progress)](/design-processes/index.md)
+[Assignment 4 - Design Processes](/design-processes/index.md)
 
 [Assignment 5 - Obstruction Game](/obstruction-game/index.md)
 

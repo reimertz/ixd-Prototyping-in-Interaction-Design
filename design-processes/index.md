@@ -16,13 +16,16 @@ point of view, I also chose to have some insider information that I could confro
 
 ### The interview
 It was interesting, the designers spent some time discussing the value of security and how
-that was their clients(the swedish government) highest priority. I asked them about the amount
-if visible faces on the passport and asked if swedish people are more egocentric than others, 
-they said maybe.
+that was their clients(the Swedish government) highest priority. I asked them about the amount
+if visible faces on the passport and asked if Swedish people are more egocentric than others, 
+they said maybe. They mentioned that they spent some time making it usable for people with disabilities,
+such as blind people with the help of making the most important page out of very distinct plastic.
 
-We also talked about how it was designed to be usable for blind people, with destinct   
+The researcher asked a about the designing process and what specific methods they used when the
+redesigned the passport, they couldn't name any specific method, but the said that they iterated
+a a lot on different ideas and brainstormed.
 
-
+That was basically it. 
 
 
 
