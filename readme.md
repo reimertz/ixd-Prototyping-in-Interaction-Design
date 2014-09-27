@@ -12,8 +12,10 @@ the course CIU176.
 
 [Assignment 4 - Design Processes (in progress)](/design-processes/index.md)
 
-Assignment 4 - XX
+[Assignment 5 - Obstruction Game](/obstruction-game/index.md)
 
-Assignment 5 - XX
+Assignment 6 - XX
+
+###Others
 
 [3D modeling](/3d-modeling/index.md)
