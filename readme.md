@@ -14,6 +14,9 @@ the course CIU176.
 
 [Assignment 5 - Obstruction Game](/obstruction-game/index.md)
 
+[Assignment 6 - LARP](/larp/index.md)
+
+
 Assignment 6 - XX
 
 ###Others

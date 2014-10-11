@@ -4,8 +4,7 @@ Assignment 5 - Obstruction Game
 ## The Five Obstructions
 ![](http://ia.media-imdb./comobstruction-game/images/M/MV5BMjA1MjgwMzA2OF5BMl5BanBnXkFtZTcwMTUzNjYyMQ@@._V1_SY317_CR5,0,214,317_AL_.jpg)
 
-Before starting the workshop, we got an introduction to what a obstruction game could by watching "The Five Obstructions" by Jørgen Leth and Lars von Trier. It was very interesting and if I understood it correctly,
-you should follow these steps:
+Before starting the workshop, we got an introduction to what a obstruction game could by watching "The Five Obstructions" by Jørgen Leth and Lars von Trier. It was very interesting and if I understood it correctly, you should follow these steps:
 
 1. Define what to do
 2. Define limitations
@@ -20,14 +19,9 @@ We then got introduced to the first obstruction: glue the two pieces of hardened
 This was very easy since there wasn't much to discuss or decide since they had to be glued together 
 in a specific way.
 
-The second obstruction then started and we was told that the previous pieces we glued together was an apartment layout that we where about to create outer walls for. We then got black hardened paper that we
-could use. The limitations was that we had to use all the paper and that we where not allowed to cut
-the white paper since this was load-bearing walls.
+The second obstruction then started and we was told that the previous pieces we glued together was an apartment layout that we where about to create outer walls for. We then got black hardened paper that we could use. The limitations was that we had to use all the paper and that we where not allowed to cut the white paper since this was load-bearing walls.
 
-This was very interesting because we also got the rule that person A had the final word in all the 
-decision-making. So we started discussing what to do and we early came of with the idea of combining
-outer walls with full height windows, meaning that they spanned from the floor all the way up to
-the ceiling. 
+This was very interesting because we also got the rule that person A had the final word in all the decision-making. So we started discussing what to do and we early came of with the idea of combining outer walls with full height windows, meaning that they spanned from the floor all the way up to the ceiling. 
 
 The process of slicing the paper was very time consuming and so we didn't have that
 much time to really discuss how we should organize the outer walls. So when we heard
@@ -63,8 +57,16 @@ around inside the house.
 
 I really liked the idea of iterating without knowing what the next step would be. It kind
 if makes you think outside the box without realizing it. For example, if we would have known
-everything from the start, the average quality of the designs would probably had been better, but 
-we would have lacked the amount of designs that where crazy and inspirational. 
+everything from the start, the average quality of the designs would probably had been better, but we would have lacked the amount of designs that where crazy and inspirational. 
+
+
+## Reflections
+
+I thought it was very interesting to be thrown into a situation where I had no clue what
+the next step would be. I guess this method could be very useful when you need to collect
+a variety of ideas and designs when you have a basic understanding of what you want.
+
+As an interaction designer, I would probably use this with kids, since it is very easy to work with and it works well with a large amount of groups. 
 
 I could see myself apply this method on a hackaton where developers would get a set of rules
 and then you do the same thing. Hm.. Might actually do this.. :)
