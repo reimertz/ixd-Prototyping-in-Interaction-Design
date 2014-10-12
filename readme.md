@@ -16,8 +16,7 @@ the course CIU176.
 
 [Assignment 6 - LARP](/larp/index.md)
 
-
-Assignment 6 - XX
+[Assignment 7 - Video Prototype](/video-prototype/index.md)
 
 ###Others
 
